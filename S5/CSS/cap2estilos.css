@@ -1,0 +1,57 @@
+/* selector universal */
+*{
+    color: red;
+}
+
+
+/* selector de etiquetas */
+nav{
+    background:steelblue;
+    border: 3px dotted black;
+}
+
+h2{
+    color: blue;
+}
+
+
+/* selector de clase */
+.titulo{
+    text-align: center;
+}
+
+.titulo-borde{
+    border: 2px solid black;
+}
+
+.😅{
+    color: darkmagenta;
+}
+
+
+/* selector de id */
+#idsec{
+    border: 4px double black;
+}
+
+
+/* selector de atributo */
+[href]{
+    text-decoration: none;  
+}
+
+[href="https://www.google.com/"]{
+    color:blue;
+}
+
+[href^="https"]{
+    color: olive;
+}
+
+[href$=".com"]{
+    color: green;
+}
+
+[href*="www."]{
+    text-decoration: underline;
+}
