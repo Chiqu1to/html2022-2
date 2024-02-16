@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./m.css">
+</head>
+    <script src="./m.js"></script>
+<body>
+    <h2>Choose Your Products</h2>
+<div id="productSection">
+<select id="product">
+  <option value="150">SmartPhone $150</option>
+  <option value="750">Laptop $750</option>
+  <option value="120">Headphones $120</option>
+</select>
+<label><input type="checkbox" id="insurance"> Add Insurance $10</label>
+<input id="quantity" min="1">
+</div>
+<button onclick="calculate()">Calculate Total and Shipping</button>
+
+<p id="shipping">Shipping: </p>
+</body>
+</html>

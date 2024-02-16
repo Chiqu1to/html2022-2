@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./k.css">
+</head>
+<script>
+
+    function processFormData() {
+
+    let form = document.getElementById('myForm');
+  
+    let cardNumber = form.elements.number.value;
+    let holder = form.elements.holder.value;
+    let method = form.elements.pay.value;
+  
+  
+    //Insert data into table with predefined function
+    insertdata(cardNumber, holder, method);
+      
+    // Clear the form fields
+    clearFormData();
+  };
+  </script>
+<body>
+    
+    <h2>Registration Form</h2>
+
+<form id="myForm">
+  <label for="number">Card number:</label>
+  <input type="text" id="number" name="number"><br><br>
+
+  <label for="holder">Card holder's name:</label>
+  <input type="text" id="holder" name="holder"><br><br>
+
+  <p>Payment method:</p>
+  <input type="radio" id="r1" name="pay" value="cash">
+  <label for="r1">Cash</label>
+  <input type="radio" id="r2" name="pay" value="card">
+  <label for="r2">Card</label>
+  <input type="radio" id="r3" name="pay" value="Credit">
+  <label for="r3">Credit</label></br></br>
+
+  <input type="button" onclick="processFormData()" value="Submit">
+  </form>
+
+  <div id="table">
+  <h2>Database Simulation</h2>
+  <table id="dataTable">
+    <tr>
+      <th>number</th>
+      <th>holder</th>
+      <th>method</th>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

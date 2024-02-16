@@ -1,0 +1,158 @@
+body {   
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Anl4I57k-GKKetEkiRClNNSThj6X9eSdNg&usqp=CAU");
+    background-repeat:repeat;
+    background-size:200px;
+   }
+   
+   p {background-color:Blue;
+       color:white;
+       display:block;
+       text-align:center;
+       border-radius:30px;
+       font-size:16px;
+       font-family: Georgia, Ariel;
+       font-weight:20;
+       margin-left:10%;
+       margin-right:10%;}
+       
+   /* /Translation to upside by 40px/ */
+   #trup {
+       width:100px;
+       height:100px;
+       background-color:LightSlateGrey;
+       color:white;
+       border-radius:30px;
+       margin-left:35%;
+       text-align: center; 
+       vertical-align: middle; 
+       line-height:85px;
+   }
+   
+   #trup:active {
+       transform:translate(0px,-40px);
+   }
+       
+   /* /Translation to downside by 40px/ */
+   #trdn {
+       width:100px;
+       height:100px;
+       background-color:LightGrey;
+       color:white;
+       border-radius:30px;
+       margin-left:35%;
+       text-align: center; 
+       vertical-align: middle; 
+       line-height:85px;
+   }
+   
+   #trdn:active {
+       transform:translate(0px,40px);
+   }
+   
+       
+   /* /Translation to left by 40px/ */
+   #trl {
+       width:100px;
+       height:100px;
+       background-color:LightSlateGrey;
+       color:white;
+       border-radius:30px;
+       margin-left:35%;
+       text-align: center; 
+       vertical-align: middle; 
+       line-height:85px;
+   }
+   
+   #trl:active {
+       transform:translate(-40px,0px);
+   }
+       
+   /* /Translation to right by 40px/ */
+   #trr {
+       width:100px;
+       height:100px;
+       background-color:LightGrey;
+       color:white;
+       border-radius:30px;
+       margin-left:35%;
+       text-align: center; 
+       vertical-align: middle; 
+       line-height:85px;
+   }
+   
+   #trr:active {
+       transform:translate(40px,0px);
+   }
+   
+       
+   /* /Upscale to double/ */
+   #tru {
+       width:100px;
+       height:100px;
+       background-color:LightBlue;
+       color:white;
+       border-radius:30px;
+       margin-left:35%;
+       text-align: center; 
+       vertical-align: middle; 
+       line-height:85px;
+   }
+   
+   #tru:active {
+       transform:scale(2);
+   }
+   
+   /* /Downscale to half/ */
+   #trd {
+       width:100px;
+       height:100px;
+       background-color:SkyBlue;
+       color:white;
+       border-radius:30px;
+       margin-left:35%;
+       text-align: center; 
+       vertical-align: middle; 
+       line-height:85px;
+   }
+   
+   #trd:active {
+       transform:scale(0.5);
+   }
+   
+   /* /Rotate clockwise by 45 deg/ */
+   #trrc {
+       width:100px;
+       height:40px;
+       background-color:rgb(100,150,150);
+       color:white;
+       border-radius:30px;
+       margin-left:35%;
+       margin-bottom:40px;
+       margin-top:40px;
+       text-align: center; 
+       vertical-align: middle; 
+       line-height:85px;
+   }
+   
+   #trrc:active {
+       transform:rotate(45deg);
+   }
+   
+   /* /Rotate anticlockwise by 45 deg/ */
+   #trrcc {
+       width:100px;
+       height:40px;
+       background-color:rgb(150,150,150);
+       color:white;
+       border-radius:30px;
+       margin-left:35%;
+       margin-top:40px;
+       margin-bottom:40px;
+       text-align: center; 
+       vertical-align: middle; 
+       line-height:85px;
+   }
+   
+   #trrcc:active {
+       transform:rotate(-45deg);
+   }

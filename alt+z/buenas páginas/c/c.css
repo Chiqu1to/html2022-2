@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F8FC;
+  }
+  
+  /* Aplicando el borde alrededor de la tabla */
+  #table1 {
+    border: 2px solid #0C1527;
+  }
+  
+  /* Aplicando bordes a cada celda */
+  #table2 th, 
+  #table2 td {
+    border: 2px solid #0C1527;
+  }
+  
+  td {
+    text-align: left;
+  }
+  
+  th{
+    text-align: left;
+    background-color: #149EF2;
+  }

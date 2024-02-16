@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background: red;
+    height: 400px;
+    color: white;
+}
+
+/* header>h2.title#title{
+    font-size: 40px;
+}
+
+.title{
+    font-size: 15px;
+} */
+
+/* prioridades
+
+1000- en línea
+100- id
+10- clases
+1- etiquetas
+
+*/
+
+.title{
+    font-size: 25px;
+    color: white;
+}
+
+h2{
+    color: black;
+}
+
+.copy{
+    color: black;
+}
+
+.title{
+    font-size: 100px !important;
+}
+
+header>h2.title#title{
+    font-size: 30px;
+}
